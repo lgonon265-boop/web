@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title>Restaurante El Buen Sabor</title>
+</head>
+<body style="font-family: Arial; background-color: #1a1a1a; color: white;">
+  <h1 style="text-align:center; color: darkred;">🍽 Restaurante "El Buen Sabor" 🍷</h1>
+  <p style="text-align:center; color: lightgray;">¡Bienvenido! Realice su reservación y disfrute de nuestros mejores platillos.</p>
+  
+  <h2>Platillos destacados</h2>
+  <br>
+  <br>
+  <img src="https://assets.tmecosys.com/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/80a796dd-e463-447f-a459-7ba776f0c746/Derivates/9d0824cf-968a-4bf6-a0bd-e86edb42c52a.jpg" width="200" style="display:block; margin:auto;">
+  <p style="text-align:center;"color: White;"> <b>Spaghetti al Pomodoro:</b> Pasta italiana con salsa de tomate fresca.</p>
+  <br>
+  <hr>
+  <br>
+  <img src="https://img-global.cpcdn.com/recipes/95d00f8d92eebbcd/300x426cq80/pollo-al-horno-con-papas-foto-principal.webp" width="200"><br>
+  <p style="text-align:center;"color: White;"> <b>Pollo Asado:</b> Pollo marinado acompañado de papas al horno.</p>
+  <br>
+  <hr>
+  <br>
+  <img src="https://lapalmerarosa.com/wp-content/uploads/2013/10/tacos-de-ternera-picada.jpg" width="200"><br>
+  <p style="text-align:center;"color: White;"> <b>Tacos Mexicanos:</b> Tortillas rellenas de carne, vegetales y salsas.</p>
+  <br>
+  <hr>
+  <br>
+  <h2>Horario de Atención</h2>
+  <p><b>Lunes a Viernes:</b> 11:00 am - 10:00 pm</p>
+  <p><b>Sábado y Domingo:</b> 12:00 pm - 11:00 pm</p>
+
+  <h2>Formulario de Reservación</h2>
+  <form>
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre"><br><br>
+
+    <label>Dirección:</label><br>
+    <input type="text" name="direccion"><br><br>
+
+    <label>Teléfono:</label><br>
+    <input type="tel" name="telefono"><br><br>
+
+    <label>Correo electrónico:</label><br>
+    <input type="email" name="correo"><br><br>
+
+    <label>Reservación para:</label><br>
+    <input type="radio" name="personas"> Una persona<br>
+    <input type="radio" name="personas"> Dos personas<br>
+    <input type="radio" name="personas"> Tres personas<br>
+    <input type="radio" name="personas"> Cuatro personas<br>
+    <input type="radio" name="personas"> Cinco o más personas<br><br>
+
+    <button type="submit">Enviar Reservación</button>
+  </form>
+
+  <h2>Teléfonos</h2>
+  <p>📞 (502) 1234-5678</p>
+  <p>📞 (502) 9876-5432</p>
+
+</body>
+</html>
